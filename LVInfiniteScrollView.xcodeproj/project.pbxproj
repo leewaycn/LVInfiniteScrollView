@@ -13,6 +13,8 @@
 		5879DDB220A53AA2009E90CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5879DDB120A53AA2009E90CE /* Assets.xcassets */; };
 		5879DDB520A53AA2009E90CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5879DDB320A53AA2009E90CE /* LaunchScreen.storyboard */; };
 		5879DDB820A53AA2009E90CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5879DDB720A53AA2009E90CE /* main.m */; };
+		5879DDC120A53AC6009E90CE /* LVInfiniteScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5879DDC020A53AC6009E90CE /* LVInfiniteScrollView.m */; };
+		5879DDC420A54B74009E90CE /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5879DDC320A54B74009E90CE /* ImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		5879DDB420A53AA2009E90CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5879DDB620A53AA2009E90CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5879DDB720A53AA2009E90CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5879DDBF20A53AC6009E90CE /* LVInfiniteScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LVInfiniteScrollView.h; sourceTree = "<group>"; };
+		5879DDC020A53AC6009E90CE /* LVInfiniteScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LVInfiniteScrollView.m; sourceTree = "<group>"; };
+		5879DDC220A54B74009E90CE /* ImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		5879DDC320A54B74009E90CE /* ImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +68,23 @@
 				5879DDA920A53AA1009E90CE /* AppDelegate.m */,
 				5879DDAB20A53AA1009E90CE /* ViewController.h */,
 				5879DDAC20A53AA1009E90CE /* ViewController.m */,
+				5879DDC220A54B74009E90CE /* ImageViewController.h */,
+				5879DDC320A54B74009E90CE /* ImageViewController.m */,
+				5879DDBE20A53AAA009E90CE /* LVInfiniteScrollView */,
 				5879DDAE20A53AA1009E90CE /* Main.storyboard */,
 				5879DDB120A53AA2009E90CE /* Assets.xcassets */,
 				5879DDB320A53AA2009E90CE /* LaunchScreen.storyboard */,
 				5879DDB620A53AA2009E90CE /* Info.plist */,
 				5879DDB720A53AA2009E90CE /* main.m */,
+			);
+			path = LVInfiniteScrollView;
+			sourceTree = "<group>";
+		};
+		5879DDBE20A53AAA009E90CE /* LVInfiniteScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				5879DDBF20A53AC6009E90CE /* LVInfiniteScrollView.h */,
+				5879DDC020A53AC6009E90CE /* LVInfiniteScrollView.m */,
 			);
 			path = LVInfiniteScrollView;
 			sourceTree = "<group>";
@@ -141,9 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5879DDC420A54B74009E90CE /* ImageViewController.m in Sources */,
 				5879DDAD20A53AA1009E90CE /* ViewController.m in Sources */,
 				5879DDB820A53AA2009E90CE /* main.m in Sources */,
 				5879DDAA20A53AA1009E90CE /* AppDelegate.m in Sources */,
+				5879DDC120A53AC6009E90CE /* LVInfiniteScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
